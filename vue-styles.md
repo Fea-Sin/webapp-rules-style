@@ -1,4 +1,4 @@
-## WEB APP VUE STYLE
+## VUE STYLE
 
 ### 名称的写法
 
