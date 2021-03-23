@@ -19,3 +19,6 @@
 - [prettier](format-prettier.md)
 
 - [配置](format-prettier.md)
+
+- [rules](https://prettier.io/docs/en/options.html)
+- [rules 说明](https://blog.csdn.net/ganyingxie123456/article/details/105957586)
