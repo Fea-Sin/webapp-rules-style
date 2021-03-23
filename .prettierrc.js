@@ -14,8 +14,6 @@ module.exports = {
     "@vue/prettier/@typescript-eslint",
   ],
 
-
-  
   // 配置标签换行格式
   // 与 htmlWhitespaceSensitivity 一起配置才能生效
   // htmlWhitespaceSensitivity: "css" | "strict" | "ignore"
