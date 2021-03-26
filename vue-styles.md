@@ -28,11 +28,23 @@
 
 #### 定义事件名称
 
-事件名不会被作为一个 JavaScript 变量名或 property 名，所以没有理由使用 camelCase 或 PascalCase
-并且`v-on`事件监听器在 DOM 模版中会被自动转换为全小写（因为 HTML 是大小写不敏感的），所以`v-on:myEvent`
+`v-on`事件监听器在 DOM 模版中会被自动转换为全小写（因为 HTML 是大小写不敏感的），所以`v-on:myEvent`
 将会变成`v-on:myevent`--导致`myEvent`不可能被监听到
 
-因此，推荐始终使用 kebab-case 的事件名
+vue 官方推荐始终使用 kebab-case 的事件名
+但是在 JavaScript 环境中使用 kebab-case 事件名称非常不友好（感觉非常怪异），我们推荐使用 camelCase
+举个例子
+camelCase
+
+```
+<MySelect :optionData="optionList" @onSelect="handleSelect"></MySelect>
+```
+
+kebab-case
+
+```
+<MySelect :optionData="optionList" @on-select="handleSelect"></MySelect>
+```
 
 ### Prop 名称
 
