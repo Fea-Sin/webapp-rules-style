@@ -11,7 +11,7 @@
 - kebab-case
   短横线分隔命名
 
-#### 定义组件的名称
+### 定义组件的名称
 
 定义组件时使用 UpperCamelCase 命名，`MyComponentName`，在使用组件时用`<MyComponentName></MyComponentName>`。
 
@@ -26,7 +26,7 @@
 
 定义组件文件的名称与定义组件的名称相同，使用 PascalCase
 
-#### 定义事件名称
+### 定义事件名称
 
 `v-on`事件监听器在 DOM 模版中会被自动转换为全小写（因为 HTML 是大小写不敏感的），所以`v-on:myEvent`
 将会变成`v-on:myevent`--导致`myEvent`不可能被监听到
