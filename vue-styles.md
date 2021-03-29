@@ -34,13 +34,14 @@
 vue 官方推荐始终使用 kebab-case 的事件名
 但是在 JavaScript 环境中使用 kebab-case 事件名称非常不友好（感觉非常怪异），我们推荐使用 camelCase
 举个例子
-camelCase
+
+**camelCase**
 
 ```
 <MySelect :optionData="optionList" @onSelect="handleSelect"></MySelect>
 ```
 
-kebab-case
+**kebab-case**
 
 ```
 <MySelect :optionData="optionList" @on-select="handleSelect"></MySelect>
