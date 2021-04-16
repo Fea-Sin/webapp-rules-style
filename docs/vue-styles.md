@@ -2,6 +2,8 @@
 
 ### 名称的写法
 
+名称的写法一般分为以下三种方式
+
 - UpperCamelCase / PascalCase
   所有单词首字符都大写
 
@@ -70,4 +72,40 @@ JavaScript 对象属性名称一般使用 camelCase（驼峰命名法）形式
 
 ```
 <component my-prop-name="hello"></component>
+```
+
+### 定义文件夹的名称
+
+文件夹名称写法，采用 kebab-case 写法
+
+`vue-property`
+
+### 定义文件的名称（非组件文件）
+
+文件的名称采用 kebab-case 写法
+
+`account.ts`、`account-setting.ts`
+
+### css 名称
+
+css 样式名分两种情况
+
+第一种情况是全局样式，通常是在一个单独的样式文件，此时 css 名称采用 kebab-case 写法
+
+```less
+// app.less
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+```
+
+第二种情况是在 Vue 文件中，此时样式一般是作用域样式，此时 css 名称采用 camelCase 写法
+
+```css
+.vuBox {
+  padding: 20px;
+  border: 1px solid green;
+}
 ```
